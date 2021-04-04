@@ -2,6 +2,13 @@ import './css/styles.css';
 import Me from './assets/img/ME.JPG';
 import gitlogo from './assets/img/Github-Logo-Transparent-Background-PNG.png';
 import linkedIn from './assets/img/Linkedin-Logo-Png-Transparent-Background.png';
+import diploma from './assets/img/diploma.png';
+import cert from './assets/img/cert.png';
+
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -150,10 +157,22 @@ function App() {
                     <h2 className="mb-5">Education</h2>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
+                            <h3 className="mb-0">University of Miami</h3>
+                            <div className="subheading mb-3">Certificate</div>
+                            <div>FullStack Web Development</div>
+                            <br/>
+                            <img style = {{width: '450px'}} src = {cert} alt=''></img>
+                        </div>
+                        <div className="flex-shrink-0"><span className="text-primary">Mar 2020 - September 2020</span></div>
+                    </div>
+                    <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="flex-grow-1">
                             <h3 className="mb-0">Florida International University</h3>
                             <div className="subheading mb-3">Bachelor's of Science</div>
                             <div>Information Technology</div>
+                            <br/>
                             <p>GPA: 3.1</p>
+                            <img style = {{width: '450px'}} src = {diploma} alt=''></img>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">Aug 2016 - Dec 2019</span></div>
                     </div>
