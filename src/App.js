@@ -8,7 +8,6 @@ import cert from './assets/img/cert.png';
 
 
 
-
 function App() {
   return (
     <div className="App">
@@ -49,13 +48,13 @@ function App() {
                          Miami, Florida 33183 · (786) 210-0667 ·
                         <a href="mailto:name@email.com"> charlienaranjo19@gmail.com</a>
                     </div>
-                    <p className="lead mb-5">My name is Charlie Naranjo and I am an aspiring junior developer. In 2020, I invested in myself and completed a Full-stack Development boot camp at the University of Miami
-                        to deepen my understanding of web development. Here, I sharpened my skills in programming and was introduced to HTML, JavaScript, CSS, react.js, and MySQL. Back in late 2019, I graduated from Florida 
-                        International University with my Bachelors of Science in Information Technology. In pursuit of my Bachelors degree in Information Technology, I took a lot of different courses involving major computer concepts such Programming, Database Administration, Networking, Cyber Security, and 
-                        was exposed to the many opportunities the technology industry has to offer. I really enjoyed programming and the vast oppurtunities that it presented, thus, decided this was the path I wanted to pursue.</p>
+                    <p className="lead mb-5">My name is Charlie Naranjo and I am an aspiring junior developer. In 2020, I invested in myself and completed a Full Stack Development boot camp at the University of Miami
+                        to deepen my understanding of web development. Here, I sharpened my skills in programming and was introduced to HTML, JavaScript, CSS, react.js, and MySQL. In late 2019, I graduated from Florida 
+                        International University with my Bachelor's of Science in Information Technology. During my undergrad, I took a lot of different courses involving major Technology fields such Programming, Database Administration, Networking, Cyber Security, and 
+                        was exposed to the many opportunities the technology industry has to offer. I really enjoyed programming and the vast oppurtunities that software development presented, thus, decided this was the path I wanted to pursue.</p>
 
                         <br/>
-                        <p className="lead mb-5"> Currently as of today, I have accrued about 3 years of experience as a Software Support Engineer. Under this role I have had the honor of handling escalated issues, solving out issues on a software level, and identifying root causes with extensive troubleshooting. 
+                        <p className="lead mb-5"> Currently as of today, I have accrued about 3 years of experience mainly as a Software Support Engineer. Under this role I have had the honor of handling technological issues, solving out issues on a software level, and identifying root causes with extensive troubleshooting. 
                             I am eagerly trying to find a company where I can continue to develop my skills in programming and pursue my dream of becoming a well-rounded developer.
                
                              
@@ -176,14 +175,7 @@ function App() {
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">Aug 2016 - Dec 2019</span></div>
                     </div>
-                    <div className="d-flex flex-column flex-md-row justify-content-between">
-                        <div className="flex-grow-1">
-                            <h3 className="mb-0">Miami-Dade Community College</h3>
-                            <div className="subheading mb-3">Associate in Psychology</div>
-                            
-                        </div>
-                        <div className="flex-shrink-0"><span className="text-primary">Aug 2013 - Aug 2016</span></div>
-                    </div>
+                   
                 </div>
             </section>
             <hr className="m-0" />
@@ -232,7 +224,7 @@ function App() {
             <section className="resume-section" id="interests">
                 <div className="resume-section-content">
                     <h2 className="mb-5">Interests</h2>
-                    <p>On my off time, I am a die hard Nintendo Fan and basically an overall tech nerd. I love to play video games, music, being with my family/friends, and I enjoy trying new food and traveling! I recently picked up a new hobby in animation and pixel art. I hope to be utilizing these skills soon with maybe some game development within Unity projects. </p>
+                    <p>On my off time, I am a die hard gamer and overall retro game collector. I love to play video games, create music, being with my family/friends, and I enjoy trying new food and traveling! I recently picked up a new hobby in animation and pixel art. I hope to be utilizing these skills soon with maybe some game development within Unity projects. </p>
                     <p className="mb-0"></p>
                 </div>
             </section>
@@ -243,7 +235,7 @@ function App() {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src= "./index.js"> </script>
   
     </div>
     </div>
